@@ -1,0 +1,53 @@
+    html,
+body {
+    position: relative;
+    height: 100vh;
+}
+ body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #000;
+    height: 100vh;
+}
+
+swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 345px;
+    object-fit: cover;
+    margin: 0 0 40px 0;
+}
+
+.container {
+    width: 1200px;
+    margin-inline: auto;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: 800;
+    margin: 30px 0;
+    text-align: left;
+    width: 531px;
+}
+
+.subtitle {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    margin: 0;
+    color:rgba(37, 37, 37, 0.55);
+}
+
+.text {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    margin: 15px 0;
+    color:rgba(37, 37, 37, 0.55);
+}
